@@ -1,0 +1,36 @@
+<?php
+
+$name = $_GET['name']
+?>
+
+<html>
+<link rel="stylesheet" href="css/styles.css" type="text/css">
+<body>
+  <p>Choose a name (with caution)</p>
+        <form method="get">
+            <select name="name">
+                <option selected="selected">Choose a victim</option>
+                <option value="Ariel">Ariel</option>
+                <option value="Abdi">Abdi</option>
+                <option value="Oliver">Oliver</option>
+                <option value="Charlie">Charlie</option>
+                <option value="Dan">Dan</option>
+                <option value="Joe">Joe</option>
+                <option value="Max">Max</option>
+                <option value="Matt">Matt</option>
+                <option value="Gideon">Gideon</option>
+            </select>
+            <div class="click">
+            <input class="submit" type="submit"/>
+            </div>
+        </form>
+  <div id="quotes">
+     <?php echo \theNameSpace\DisplayClassViewHelper::display($class,$name);?>
+  </div>
+</body>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+        crossorigin="anonymous"></script>
+
+<script src="js/index.js"></script>
+</html>

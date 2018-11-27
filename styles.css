@@ -1,0 +1,37 @@
+
+body {
+    background-image: url("../images/bees.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+p {
+    font-size: x-large;
+    color: red;
+    position: relative;
+    left: 500px;
+}
+
+.names {
+    color: dodgerblue;
+}
+
+#quotes {
+    width: 500px;
+    font-size: xx-large;
+    color: red;
+    position: relative;
+    top: 200px;
+    left: 500px;
+    background-color: whitesmoke;
+    opacity: 0.9;
+    transition: 1s;
+}
+
+.all {
+    color: dodgerblue;
+}
+
+form{
+    position: relative;
+    left: 500px;
+}
